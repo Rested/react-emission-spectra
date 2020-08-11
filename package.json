@@ -1,7 +1,7 @@
 {
   "name": "react-emission-spectra",
   "version": "1.0.0",
-  "description": "a set of react components for the visible emission and absorption spectra of chemical elements ",
+  "description": "a set of react components for the visible emission and absorption spectra of chemical elements",
   "author": "Rested",
   "license": "MIT",
   "repository": "Rested/react-emission-spectra",

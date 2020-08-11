@@ -24,6 +24,9 @@ class Example extends Component {
 }
 ```
 
+For more examples see
+[https://rested.github.io/react-emission-spectra/](https://rested.github.io/react-emission-spectra/)
+
 ## License
 
 MIT © [Rested](https://github.com/Rested)
