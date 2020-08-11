@@ -1,6 +1,6 @@
 {
   "name": "react-emission-spectra",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a set of react components for the visible emission and absorption spectra of chemical elements",
   "author": "Rested",
   "license": "MIT",
@@ -24,8 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "tinygradient": "^1.1.2"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -60,5 +59,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "tinygradient": "^1.1.2"
+  }
 }
