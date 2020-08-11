@@ -39,7 +39,10 @@ The data then gets processed into clusters using the
 [jump method](https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set#An_information%E2%80%93theoretic_approach)
 and K-Means. The code for this can be found [here](./spectra_data/get_clusters.py).
 
-The data for some elements is missing, the full list can be found [here](./spectra_data/missing_elements.json).
+The data for some elements is missing this should be due to there not being available data on these:
+```javascript
+const missingElements = ["Ds", "Mt", "Nh", "Mc", "Ts", "Lv", "Fl", "Hs", "Fm", "Db", "No", "Md", "Sg", "At", "Rg", "Bh", "Cn", "Rf", "Lr", "Og"]
+```
 
 ### The rendering
 
