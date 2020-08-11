@@ -1,0 +1,15 @@
+{
+  "name": "spectra_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node --experimental-json-modules index.js "
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tinygradient": "^1.1.2"
+  },
+  "type": "module"
+}

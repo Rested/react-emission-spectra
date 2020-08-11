@@ -1,0 +1,4 @@
+requests
+pyquery
+mendeleev
+sklearn
