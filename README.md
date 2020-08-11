@@ -4,7 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-emission-spectra.svg)](https://www.npmjs.com/package/react-emission-spectra) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-##[Demo]([https://rested.github.io/react-emission-spectra/](https://rested.github.io/react-emission-spectra/))
+## [Demo](https://rested.github.io/react-emission-spectra/)
+
 [![demo images](./demo.png)](https://rested.github.io/react-emission-spectra/)
 
 ## Install
