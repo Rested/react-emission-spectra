@@ -142,7 +142,6 @@ export const SpectralLines = ({
           startPos = getWavelengthPosition(min)
           endPos = getWavelengthPosition(max)
         }
-        console.log('initial', startPos, endPos, min, max)
 
         if (endPos - startPos < minLineWidth) {
           const centroidPos = getWavelengthPosition(centroid)
@@ -153,11 +152,9 @@ export const SpectralLines = ({
           startPos = centroidPos - maxLineWidth / 2
           endPos = centroidPos + maxLineWidth / 2
         }
-        // console.log('middle', startPos, endPos)
         startPos = Math.min(1 - minGap * 3, Math.max(minGap * 3, startPos))
         endPos = Math.max(minGap * 3, Math.min(1 - minGap * 3, endPos))
 
-        // console.log('final', startPos, endPos)
         let skip = false
         let replacePrevEnd = false
         if (prevEnd && prevStart) {
@@ -172,7 +169,6 @@ export const SpectralLines = ({
           prevStart = startPos
           prevEnd = endPos
         }
-        // console.log(skip, replacePrevEnd, prevEnd, prevStart)
 
         if (!skip) {
           addStops(stops, startPos, endPos, spectrumType, replacePrevEnd)
@@ -200,7 +196,6 @@ export const SpectralLines = ({
     stops.push({ color: transparent, pos: 1 })
   }
   stops.sort((a, b) => a.pos - b.pos)
-  console.log(stops)
   const gradient = tinygradient(stops).css()
   return (
     <React.Fragment>
